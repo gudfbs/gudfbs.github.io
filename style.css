@@ -39,7 +39,7 @@ ul {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 2rem;
 }
@@ -86,7 +86,7 @@ h1, h2, h3 {
 
 .nav-content {
     width: 100%;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 2rem;
     display: flex;
@@ -130,7 +130,7 @@ h1, h2, h3 {
 .hero-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 4rem;
+    gap: 12rem;
     align-items: center;
 }
 
@@ -178,7 +178,7 @@ h1, h2, h3 {
 .hero-subtitle {
     font-size: 1.15rem;
     color: var(--text-muted);
-    max-width: 500px;
+    max-width: 650px;
     margin-bottom: 2.5rem;
     line-height: 1.8;
 }
