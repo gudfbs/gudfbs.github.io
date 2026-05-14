@@ -127,21 +127,67 @@ h1, h2, h3 {
     padding-top: 70px;
 }
 
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(46, 213, 115, 0.1);
+    color: #2ed573;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.status-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #2ed573;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(46, 213, 115, 0.5);
+}
+
 .hero-title {
-    font-size: clamp(2.5rem, 5vw, 4.5rem);
+    font-size: clamp(3.5rem, 6vw, 5rem);
+    margin-bottom: 0.5rem;
+    color: var(--text-main);
+    line-height: 1.1;
+}
+
+.hero-role {
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-weight: 700;
+    color: var(--text-muted);
     margin-bottom: 1.5rem;
 }
 
 .hero-subtitle {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     color: var(--text-muted);
-    max-width: 600px;
+    max-width: 500px;
     margin-bottom: 2.5rem;
+    line-height: 1.8;
 }
 
 .hero-actions {
     display: flex;
     gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 /* Buttons */
@@ -158,23 +204,23 @@ h1, h2, h3 {
 }
 
 .btn-primary {
-    background: var(--accent-color);
-    color: white;
+    background: var(--text-main);
+    color: var(--bg-color);
 }
 
 .btn-primary:hover {
-    background: var(--accent-hover);
+    background: #e2e8f0;
     transform: translateY(-2px);
 }
 
 .btn-secondary {
-    background: var(--card-bg);
+    background: transparent;
     border: 1px solid var(--border-color);
     color: var(--text-main);
 }
 
 .btn-secondary:hover {
-    background: rgba(255, 255, 255, 0.1);
+    background: var(--card-bg);
     transform: translateY(-2px);
 }
 
@@ -185,6 +231,94 @@ h1, h2, h3 {
 .btn-outline:hover {
     background: rgba(59, 130, 246, 0.1);
     transform: translateY(-2px);
+}
+
+.btn-text {
+    background: transparent;
+    color: var(--text-muted);
+    padding: 0.8rem 1rem;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+.btn-text:hover {
+    color: var(--text-main);
+}
+
+/* Profile Card */
+.hero-right {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 24px;
+    padding: 2.5rem;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+.profile-avatar {
+    width: 64px;
+    height: 64px;
+    background: var(--gradient-2);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.profile-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-value {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--text-main);
+}
+
+.stat-label {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.profile-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.profile-skills .tag {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid transparent;
+}
+
+.profile-status {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    font-weight: 600;
 }
 
 /* About Section */
@@ -358,10 +492,24 @@ footer {
         display: none; /* In a real app, add a hamburger menu */
     }
     
+    .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
     .hero-title {
         font-size: 2.5rem;
     }
     
+    .hero-right {
+        order: -1; /* Move profile card to top on mobile */
+    }
+    
+    .profile-card {
+        max-width: 100%;
+        padding: 2rem;
+    }
+
     .timeline::before {
         left: 0.5rem;
     }
