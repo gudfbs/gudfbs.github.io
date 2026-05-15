@@ -335,6 +335,52 @@ h1, h2, h3 {
     max-width: 800px;
 }
 
+/* Projects Section */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.project-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    padding: 2rem;
+    border-radius: 16px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent-color);
+}
+
+.project-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-main);
+}
+
+.project-desc {
+    color: var(--accent-color);
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.project-card ul {
+    list-style-type: disc;
+    padding-left: 1.2rem;
+    color: var(--text-muted);
+}
+
+.project-card li {
+    margin-bottom: 0.8rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
 /* Career Timeline */
 .timeline {
     position: relative;
