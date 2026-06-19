@@ -628,6 +628,13 @@ h1, h2, h3 {
     color: var(--text-muted);
 }
 
+.tag.tag-highlight {
+    background: linear-gradient(135deg, rgba(139, 92, 246, 0.08), rgba(59, 130, 246, 0.08)) !important;
+    border-color: rgba(139, 92, 246, 0.3) !important;
+    color: var(--gradient-2) !important;
+    font-weight: 600;
+}
+
 /* Contact Section */
 .contact-card {
     background: var(--card-bg);
