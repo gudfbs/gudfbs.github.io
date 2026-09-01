@@ -5,246 +5,165 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>송형륜 | 포트폴리오</title>
-    <meta name="description" content="쇼핑몰 통합관리 솔루션 운영 및 QA 송형륜의 포트폴리오입니다.">
+    <meta name="description" content="다우기술 지원자 송형륜의 포트폴리오입니다.">
     <!-- Google Fonts: Inter and Noto Sans KR -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Noto+Sans+KR:wght@400;500;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Noto+Sans+KR:wght@400;500;700;800&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=1.3">
+    <!-- Pretendard Font via CDN -->
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
+    <link rel="stylesheet" href="style.css?v=11.0">
 </head>
 
 <body>
+    <!-- FLOATING NAVBAR -->
     <nav class="navbar">
         <div class="nav-content">
-            <a href="#" class="logo">송형륜</a>
+            <a href="#" class="logo">
+                <span class="brand-dot"></span>송형륜 | 포트폴리오
+            </a>
             <ul class="nav-links">
-                <li><a href="#about">소개</a></li>
-                <li><a href="#projects">프로젝트</a></li>
+                <li><a href="#hero">소개</a></li>
+                <li><a href="#about">핵심역량</a></li>
                 <li><a href="#career">경력</a></li>
+                <li><a href="#projects">프로젝트</a></li>
                 <li><a href="#skills">기술 스택</a></li>
-                <li><a href="#contact">연락처</a></li>
             </ul>
         </div>
     </nav>
 
     <main>
+        <!-- ────────────────── HERO SECTION ────────────────── -->
         <section id="hero" class="hero section">
             <div class="container hero-grid fade-in">
                 <div class="hero-left">
-                    <div class="status-badge">
-                        <span class="status-dot"></span>구직 중
-                    </div>
                     <h1 class="hero-title">송형륜</h1>
                     <p class="hero-role">
-                        <span class="gradient-text">쇼핑몰 통합관리 솔루션 QA 및 운영</span>
+                        <span class="gradient-text">쇼핑몰 통합관리 솔루션 운영 · 사용자 교육 · QA</span>
                     </p>
                     <p class="hero-subtitle">
-                        기능 오류만 찾는 것을 넘어 <strong>'사용자가 실제로 서비스를 어떻게 사용하는가'</strong>를 고민합니다.<br>
-                        쇼핑몰 통합관리 솔루션인 <strong>이셀러스</strong> 및 <strong>이셀러스Pro</strong>의
-                        전체 QA 리딩과 서비스 운영 지원 업무를 담당했습니다.
+                        쇼핑몰 통합관리 솔루션 이셀러스를 약 5년간 운영하며, 고객 이슈 대응부터 사용자 교육, 운영 문서 관리, 서비스 개선과 QA까지 경험했습니다.<br>
+                        <strong>사용자를 이해하고, 문제를 개선으로 연결하는 운영자입니다.</strong>
                     </p>
                     <div class="hero-actions">
-                        <a href="#career" class="btn btn-primary">경력 보기 &rarr;</a>
-                        <a href="https://github.com/gudfbs" target="_blank" class="btn btn-secondary">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"
-                                style="margin-right: 8px;">
-                                <path
-                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
-                            </svg>
-                            GitHub
-                        </a>
-                        <a href="#contact" class="btn btn-text">연락하기</a>
+                        <a href="#projects" class="btn btn-primary">주요 프로젝트 보기 &rarr;</a>
+                        <a href="mailto:gudfbs11@naver.com" class="btn btn-secondary">이메일 보내기</a>
                     </div>
                 </div>
 
+                <!-- PROFILE CARD -->
                 <div class="hero-right">
                     <div class="profile-card slide-up">
                         <div class="profile-avatar">송</div>
                         <div class="profile-stats">
                             <div class="stat-item">
-                                <span class="stat-value">11+</span>
-                                <span class="stat-label">Years</span>
+                                <span class="stat-value">11년</span>
+                                <span class="stat-label">총 경력</span>
                             </div>
                             <div class="stat-item">
-                                <span class="stat-value">2개</span>
-                                <span class="stat-label">담당 솔루션</span>
+                                <span class="stat-value">15개+</span>
+                                <span class="stat-label">오픈마켓 연동</span>
                             </div>
                             <div class="stat-item">
-                                <span class="stat-value">24%</span>
-                                <span class="stat-label">QA 처리율</span>
+                                <span class="stat-value">1,500건+</span>
+                                <span class="stat-label">운영 문서</span>
                             </div>
                         </div>
                         <div class="profile-skills">
-                            <span class="tag tag-highlight">ISTQB FL</span>
+                            <span class="tag">ISTQB FL</span>
                             <span class="tag">JIRA</span>
-                            <span class="tag">Postman</span>
+                            <span class="tag">Confluence</span>
                             <span class="tag">Excel</span>
-                            <span class="tag">Git</span>
-                            <span class="tag">VSCode</span>
-                        </div>
-                        <div class="profile-status">
-                            <span class="status-dot"></span>현재 구직 중
+                            <span class="tag">Teams</span>
+                            <span class="tag">Channel Talk</span>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- ────────────────── ABOUT / CORE COMPETENCIES ────────────────── -->
         <section id="about" class="about section">
             <div class="container">
-                <h2 class="section-title slide-up">사용자 관점에서<br>서비스 품질을 만들어갑니다.</h2>
-                <p></p>
-                <p></p>
-                <p></p>
-                <div class="about-content slide-up">
-                    <p style="margin-bottom: 1.5rem;">
-                        <strong>문제의 원인을 구조적으로 파악합니다.</strong><br>
-                        단순히 현상을 처리하는 데 그치지 않고, '왜 발생했는지'를 분석하여 운영 프로세스 자체를 개선합니다.<br>이러한 시각으로 이전 직장에서 VOC를 <strong>30%가량
-                            감소</strong>시킨 바 있으며,<br>서비스의 근본적인 완성도를 높이는 데 기여합니다.
-                    </p>
-                    <p>
-                        <strong>기능이 아닌 '서비스 흐름'을 검증합니다.</strong><br>
-                        테스트는 결과만 확인하는 작업이 아닙니다. 실제 사용자가 마주할 상황을 예측하고,<br>기획·개발 조직과 협업하여 기능의 정책과 의도를 파악함으로써
-                        <br>예기치 못한 문제를 사전에 예방하고 안정적인 사용자 경험을 제공합니다.
-                    </p>
+                <div class="value-card slide-up">
+                    <h3 class="value-card-title">사용자 중심의 운영으로 가치를 만듭니다.</h3>
+                    <div class="value-3grid">
+                        <!-- Col 1 -->
+                        <div class="value-col">
+                            <div class="value-header">
+                                <div class="value-icon-circle blue">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                                    </svg>
+                                </div>
+                                <h4 class="value-title blue">사용자 이해</h4>
+                            </div>
+                            <p class="value-desc">실제 사용 흐름과 데이터를 통해<br>문제의 원인을 정확히 파악합니다.</p>
+                        </div>
+
+                        <!-- Col 2 -->
+                        <div class="value-col">
+                            <div class="value-header">
+                                <div class="value-icon-circle green">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2">
+                                        </path>
+                                        <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+                                        <polyline points="9 14 11 16 15 12"></polyline>
+                                    </svg>
+                                </div>
+                                <h4 class="value-title green">문제 해결</h4>
+                            </div>
+                            <p class="value-desc">운영 경험과 관련 부서 협업을 통해<br>고객 이슈를 해결합니다.</p>
+                        </div>
+
+                        <!-- Col 3 -->
+                        <div class="value-col">
+                            <div class="value-header">
+                                <div class="value-icon-circle purple">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                                        <polyline points="17 6 23 6 23 12"></polyline>
+                                    </svg>
+                                </div>
+                                <h4 class="value-title purple">지속적 개선</h4>
+                            </div>
+                            <p class="value-desc">반복되는 문제를 구조적으로 개선하여<br>더 나은 서비스 경험을 만들어갑니다.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="projects" class="projects section">
-            <div class="container">
-                <h2 class="section-title slide-up">주요 프로젝트</h2>
-                <div class="projects-grid slide-up">
-
-                    <div class="project-card">
-                        <div class="project-header">
-                            <h3>신규 웹 솔루션 QA 리딩</h3>
-                            <div class="project-tech-tags">
-                                <span class="project-tech-tag">JIRA</span>
-                                <span class="project-tech-tag">Confluence</span>
-                                <span class="project-tech-tag">Excel</span>
-                                <span class="project-tech-tag">Slack</span>
-                                <span class="project-tech-tag">Teams</span>
-                                <span class="project-tech-tag">Postman</span>
-                            </div>
-                        </div>
-                        <div class="project-purpose-box">
-                            <p class="project-purpose">
-                                <strong>🎯 프로젝트 목적:</strong> 신규 웹 기반 통합관리 솔루션 전체 기능 QA
-                            </p>
-                        </div>
-                        <div class="project-details">
-                            <div class="project-detail-section">
-                                <h4>🛠️ 프로젝트 수행 내용</h4>
-                                <ul class="project-tasks-list">
-                                    <li>사용자 시나리오 기반 QA 항목 설계 및 전체 기능 검증 수행</li>
-                                    <li>상품·주문·배송 흐름 기준 기능 간 연계 및 데이터 검증 진행</li>
-                                    <li>실제 사용자 패턴 기반 예외 상황 및 이슈 시나리오화</li>
-                                    <li>Postman을 활용한 API 데이터 검증 및 원인 분석</li>
-                                    <li>기획·개발 조직과 협업하며 QA 일정 및 우선순위 조율</li>
-                                </ul>
-                            </div>
-                            <div class="project-detail-section project-highlight-section">
-                                <h4>📈 주요 결과 및 성과</h4>
-                                <ul class="project-result-list">
-                                    <li>전체 QA 이후 주요 기능 <strong>오류율 약 54% 감소</strong> (22% → 10%)</li>
-                                    <li><strong>신규 웹 솔루션 이셀러스Pro 정상 런칭</strong> (2025.07.30)</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <div class="project-header">
-                            <h3>통합관리 솔루션 유지보수 및 오픈마켓 연동 QA</h3>
-                            <div class="project-tech-tags">
-                                <span class="project-tech-tag">JIRA</span>
-                                <span class="project-tech-tag">Confluence</span>
-                                <span class="project-tech-tag">Excel</span>
-                                <span class="project-tech-tag">Postman</span>
-                            </div>
-                        </div>
-                        <div class="project-purpose-box">
-                            <p class="project-purpose">
-                                <strong>🎯 프로젝트 목적:</strong> 기존 통합관리 솔루션의 안정적인 운영 유지와 신규 오픈마켓 연동
-                            </p>
-                        </div>
-                        <div class="project-details">
-                            <div class="project-detail-section">
-                                <h4>🛠️ 프로젝트 수행 내용</h4>
-                                <ul class="project-tasks-list">
-                                    <li>월 평균 <strong>약 23건 규모의 패치</strong> QA 및 회귀 테스트 수행</li>
-                                    <li>신규 오픈마켓 및 재연동 기능 검증 진행</li>
-                                    <li>상품·주문 흐름 기반 운영 시나리오 검증 수행</li>
-                                    <li>외부 API 요청/응답 데이터 및 데이터 매핑 구조 검증</li>
-                                    <li>오픈마켓 정책 변경 대응 과정에서 긴급 패치 QA 수행</li>
-                                </ul>
-                            </div>
-                            <div class="project-detail-section project-highlight-section">
-                                <h4>📈 주요 결과 및 성과</h4>
-                                <ul class="project-result-list">
-                                    <li>기존 대비 QA 처리 건수 <strong>약 24% 증가</strong> (395건 → 489건)</li>
-                                    <li><strong>10건 이상의 신규 오픈마켓 연동</strong> 및 재연동을 통한 솔루션 확장</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <div class="project-header">
-                            <h3>웹 솔루션 안정화 QA</h3>
-                            <div class="project-tech-tags">
-                                <span class="project-tech-tag">JIRA</span>
-                                <span class="project-tech-tag">Excel</span>
-                                <span class="project-tech-tag">Teams</span>
-                            </div>
-                        </div>
-                        <div class="project-purpose-box">
-                            <p class="project-purpose">
-                                <strong>🎯 프로젝트 목적:</strong> 오픈 이후 불안정한 솔루션 기능 안정을 위한 전수 QA 진행
-                            </p>
-                        </div>
-                        <div class="project-details">
-                            <div class="project-detail-section">
-                                <h4>🛠️ 프로젝트 수행 내용</h4>
-                                <ul class="project-tasks-list">
-                                    <li>사용자 흐름 기반 전체 기능 및 운영 시나리오 테스트 수행</li>
-                                    <li>실제 운영 환경 기준 예외 상황 및 비정상 흐름 검증 진행</li>
-                                    <li>서비스 전체 기능 대상 기능 간 연계 및 데이터 흐름 검증 수행</li>
-                                    <li>사용자 숙련도에 따른 다양한 사용 패턴 기반 QA 진행</li>
-                                </ul>
-                            </div>
-                            <div class="project-detail-section project-highlight-section">
-                                <h4>📈 주요 결과 및 성과</h4>
-                                <ul class="project-result-list">
-                                    <li>오픈 이후 발생 가능한 주요 기능 오류 및 예외 상황 사전 발견</li>
-                                    <li>다차수 QA를 통해 주요 기능 <strong>오류 비율 약 30% 수준에서 10% 수준</strong>까지 개선</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
+        <!-- ────────────────── CAREER TIMELINE ────────────────── -->
         <section id="career" class="career section">
             <div class="container">
-                <h2 class="section-title slide-up">경력 타임라인</h2>
+                <h2 class="section-title slide-up">주요 경력</h2>
                 <p class="section-subtitle slide-up">2014 – 2026 · 11년간의 업무 이력</p>
 
                 <div class="timeline">
                     <div class="timeline-item slide-up">
                         <div class="timeline-dot"></div>
                         <div class="timeline-content">
-                            <h3>가비아씨엔에스 | QA 및 서비스 운영 담당</h3>
-                            <p class="timeline-desc">2021.03 – 2026.05</p>
+                            <div class="timeline-header">
+                                <h3>가비아씨엔에스 | 기획운영팀</h3>
+                                <span class="timeline-role-badge">매니저</span>
+                            </div>
+                            <p class="timeline-desc">2021.03 – 2026.05 · 쇼핑몰 통합관리 솔루션 운영 · 사용자 교육 · QA</p>
                             <ul>
-                                <li>쇼핑몰 통합관리 솔루션 이셀러스 QA 담당</li>
-                                <li>신규 웹 솔루션 이셀러스Pro QA 담당</li>
-                                <li>전체 솔루션 서비스 운영 지원, 기술 문의 대응 및 사용자 교육 진행</li>
+                                <li><strong>쇼핑몰 통합관리 솔루션 이셀러스 운영:</strong> 약 15개 오픈마켓 연동 관리 및 기술 문의 대응</li>
+                                <li><strong>사용자 대상 온·오프라인 서비스 교육:</strong> 신규 사용자 온보딩, 월 1회 정기 온라인 교육, 분기 1회 오프라인 교육 진행
+                                </li>
+                                <li><strong>운영 문서 작성 및 관리:</strong> 운영 가이드, FAQ, 챗봇/AI 연계 등 누적 1,500건+ 운영 문서 관리 및 최신화
+                                </li>
+                                <li><strong>서비스 패치 및 신규 솔루션 QA:</strong> 이셀러스 서비스 패치 QA 및 신규 솔루션(이셀러스pro) QA 리딩</li>
                             </ul>
                         </div>
                     </div>
@@ -252,12 +171,16 @@
                     <div class="timeline-item slide-up">
                         <div class="timeline-dot"></div>
                         <div class="timeline-content">
-                            <h3>모두투어네트워크 | 공항 서비스 업무 및 VOC 분석 (선임)</h3>
-                            <p class="timeline-desc">2014.12 – 2021.03</p>
+                            <div class="timeline-header">
+                                <h3>모두투어네트워크 | 공항서비스부</h3>
+                                <span class="timeline-role-badge">선임</span>
+                            </div>
+                            <p class="timeline-desc">2014.12 – 2021.03 · 공항 서비스 운영 · VOC 분석 · 품질 관리</p>
                             <ul>
-                                <li>VOC 데이터 분석 및 문제 원인 파악을 통한 운영 프로세스 개선</li>
-                                <li>운영 매뉴얼 및 교육자료 제작, 신규 인력 교육 수행</li>
-                                <li>VOC 분석 기반 개선안 적용으로 VOC 약 30% 감소 달성 (1813건 → 1268건)</li>
+                                <li><strong>공항 고객 서비스 운영:</strong> 현장 이슈 대응 및 고객 접점 서비스 총괄 관리</li>
+                                <li><strong>VOC 데이터 분석 및 프로세스 개선:</strong> 반복 이슈 원인 파악 및 부서 협업을 통해 VOC 30% 감소 달성 (1,813건
+                                    → 1,268건)</li>
+                                <li><strong>운영 매뉴얼 및 교육자료 작성:</strong> 신규 인력 온보딩 및 서비스 품질 표준화 매뉴얼 작성</li>
                             </ul>
                         </div>
                     </div>
@@ -265,52 +188,140 @@
             </div>
         </section>
 
-        <section id="skills" class="skills section">
+        <!-- ────────────────── PROJECTS SECTION ────────────────── -->
+        <section id="projects" class="projects section">
             <div class="container">
-                <h2 class="section-title slide-up">기술 스택</h2>
-                <div class="skills-grid slide-up">
-                    <div class="skill-category">
-                        <h3>협업 툴</h3>
-                        <div class="skill-tags">
-                            <span class="tag">JIRA</span>
-                            <span class="tag">Confluence</span>
-                            <span class="tag">Slack</span>
-                            <span class="tag">Teams</span>
+                <h2 class="section-title slide-up">주요 프로젝트</h2>
+                <p class="section-subtitle slide-up">실무에서 수행한 대표 프로젝트 및 핵심 성과</p>
+                <div class="projects-grid slide-up">
+
+                    <!-- PROJECT 01 -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>01. 쇼핑몰 통합관리 솔루션 운영</h3>
+                            <div class="project-tech-tags">
+                                <span class="project-tech-tag">가비아씨엔에스</span>
+                                <span class="project-tech-tag">이셀러스</span>
+                                <span class="project-tech-tag">2021.03 ~ 2026.05</span>
+                            </div>
+                        </div>
+                        <div class="project-purpose-box">
+                            <p class="project-purpose">
+                                <strong>프로젝트 개요:</strong> 쇼핑몰 통합관리 솔루션 이셀러스 서비스 운영을 담당하며 고객 이슈 대응, 사용자 교육, 운영 문서 관리 등
+                                서비스 운영 전반을 수행했습니다.
+                            </p>
+                        </div>
+                        <div class="project-details">
+                            <div class="project-detail-section">
+                                <h4>프로젝트 수행 내용</h4>
+                                <ul class="project-tasks-list">
+                                    <li>서비스 운영 및 고객 이슈 대응 (기술 문의 대응 및 정책·API 변경 모니터링)</li>
+                                    <li>약 15개 오픈마켓(쿠팡, 네이버, G마켓, 11번가 등) 연동 모니터링 및 영향도 확인</li>
+                                    <li>사용자 교육 운영 (신규 온보딩, 월 1회 정기 온라인 교육, 분기 1회 오프라인 교육)</li>
+                                    <li>운영 문서 작성 및 관리 (FAQ, 가이드, 오류문서, 챗봇·AI 연계 자동화)</li>
+                                </ul>
+                            </div>
+                            <div class="project-detail-section project-highlight-section">
+                                <h4>주요 결과 및 성과</h4>
+                                <ul class="project-result-list">
+                                    <li>오픈마켓 정책/API 변경에 따른 서비스 영향도 사전 파악으로 <strong>약 15개 오픈마켓 연동 서비스 운영</strong></li>
+                                    <li>사용 가이드, FAQ, 장애 대응 문서 등 <strong>누적 1,500건+ 운영 문서 작성 및 관리</strong></li>
+                                    <li><strong>월 1회 온라인 / 분기 1회 오프라인 사용자 교육 운영</strong></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="skill-category">
-                        <h3>데이터 분석 및 검증</h3>
-                        <div class="skill-tags">
-                            <span class="tag">Postman</span>
-                            <span class="tag">Excel</span>
+
+                    <!-- PROJECT 02 -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>02. 서비스 품질 관리 및 신규 솔루션 QA</h3>
+                            <div class="project-tech-tags">
+                                <span class="project-tech-tag">가비아씨엔에스</span>
+                                <span class="project-tech-tag">이셀러스 · 이셀러스pro</span>
+                                <span class="project-tech-tag">2023.08 ~ 2026.05</span>
+                            </div>
+                        </div>
+                        <div class="project-purpose-box">
+                            <p class="project-purpose">
+                                <strong>프로젝트 개요:</strong> 이셀러스 서비스 패치와 신규 웹 솔루션 이셀러스pro의 QA를 담당하며, 실제 사용자 업무 흐름을 기반으로
+                                변경사항을 검증하고 기획·개발과 협업해 서비스 오픈과 안정적인 운영을 지원했습니다.
+                            </p>
+                        </div>
+                        <div class="project-details">
+                            <div class="project-detail-section">
+                                <h4>프로젝트 수행 내용</h4>
+                                <ul class="project-tasks-list">
+                                    <li>이셀러스 솔루션 QA: 서비스 패치, 오픈마켓 연동 기능 검증, 영향 범위 리그레션 테스트</li>
+                                    <li>신규 솔루션(이셀러스pro) QA: 상품·배송관리 주요 기능 QA 리딩, 범위·우선순위·일정 관리</li>
+                                    <li>실제 사용자 업무 흐름을 반영한 테스트 시나리오 작성 및 검증</li>
+                                    <li>기획·개발과 이슈 및 일정 조율, 수정사항 재검증 후 서비스 반영</li>
+                                </ul>
+                            </div>
+                            <div class="project-detail-section project-highlight-section">
+                                <h4>주요 결과 및 성과</h4>
+                                <ul class="project-result-list">
+                                    <li>다차수 시나리오 검증 및 결함 관리를 통해 주요 기능 <strong>오류율 약 54% 감소 (22% → 10%)</strong></li>
+                                    <li>신규 웹 솔루션 <strong>이셀러스pro 상품·배송관리 QA 리딩 및 서비스 오픈 지원</strong></li>
+                                    <li><strong>운영 경험과 QA 프로세스를 연계해 서비스 변경사항 대응</strong></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="skill-category">
-                        <h3>자동화 활용/학습</h3>
-                        <div class="skill-tags">
-                            <span class="tag">Git</span>
-                            <span class="tag">VSCode</span>
-                            <span class="tag">Playwright 기반 웹 자동화 테스트 학습</span>
+
+                    <!-- PROJECT 03 -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>03. VOC 데이터 기반 프로세스 개선</h3>
+                            <div class="project-tech-tags">
+                                <span class="project-tech-tag">모두투어네트워크</span>
+                                <span class="project-tech-tag">공항서비스부</span>
+                                <span class="project-tech-tag">2014.12 ~ 2021.03</span>
+                            </div>
+                        </div>
+                        <div class="project-purpose-box">
+                            <p class="project-purpose">
+                                <strong>프로젝트 개요:</strong> VOC 데이터를 분석해 반복되는 고객 이슈의 근본 원인을 파악하고, 관련 부서와 협업하여 재발 방지 프로세스를
+                                구축했습니다.
+                            </p>
+                        </div>
+                        <div class="project-details">
+                            <div class="project-detail-section">
+                                <h4>프로젝트 수행 내용</h4>
+                                <ul class="project-tasks-list">
+                                    <li>VOC 데이터 추출 및 유형별/발생 지점별 빈도 분석</li>
+                                    <li>반복 발생 문제의 근본 원인 파악 및 유관 부서 개선 협의</li>
+                                    <li>개선안 적용 및 운영 매뉴얼/교육자료 최신화</li>
+                                    <li>개선 결과 지속 모니터링 및 효과 측정</li>
+                                </ul>
+                            </div>
+                            <div class="project-detail-section project-highlight-section">
+                                <h4>주요 결과 및 성과</h4>
+                                <ul class="project-result-list">
+                                    <li>VOC 원인 파악 및 운영 개선을 통해 <strong>전체 VOC 약 30% 감소 달성 (1,813건 → 1,268건)</strong></li>
+                                    <li><strong>주요 발생 부서 VOC 감소</strong> (A부서 46% 감소, B부서 26% 감소)</li>
+                                    <li>데이터 기반 부서 간 협업 구조 수립 및 <strong>재발 방지 프로세스 구축</strong></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="skill-category">
-                        <h3>자격증</h3>
-                        <div class="skill-tags">
-                            <span class="tag tag-highlight">ISTQB Certified Tester Foundation Level (FL)</span>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="contact section">
-            <div class="container slide-up">
-                <h2 class="section-title">연락처</h2>
-                <div class="contact-card">
-                    <p class="contact-desc">흥미로운 기회나 제안은 언제든 환영합니다.</p>
-                    <a href="mailto:gudfbs11@naver.com" class="btn btn-primary contact-btn">이메일 보내기</a>
-                    <a href="https://github.com/gudfbs" target="_blank" class="btn btn-outline contact-btn">GitHub
-                        방문</a>
+        <!-- ────────────────── SKILLS & TOOLS SECTION ────────────────── -->
+        <section id="skills" class="skills section">
+            <div class="container">
+                <h2 class="section-title slide-up">주요 도구 및 기술</h2>
+                <p class="section-subtitle slide-up">실무에서 활용하는 핵심 도구 및 전문 자격</p>
+                <div class="tools-badge-container slide-up">
+                    <span class="tool-badge">Excel</span>
+                    <span class="tool-badge">JIRA</span>
+                    <span class="tool-badge">Confluence</span>
+                    <span class="tool-badge">Teams</span>
+                    <span class="tool-badge">Channel Talk</span>
+                    <span class="tool-badge">ISTQB FL</span>
                 </div>
             </div>
         </section>
