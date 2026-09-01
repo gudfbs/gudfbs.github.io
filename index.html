@@ -4,1050 +4,325 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>송형륜 | 경력기술서</title>
-    <meta name="description" content="다우기술 지원자 송형륜의 경력기술서입니다.">
+    <title>송형륜 | 포트폴리오</title>
+    <meta name="description" content="쇼핑몰 통합관리 솔루션 운영 및 QA 송형륜의 포트폴리오입니다.">
     <!-- Google Fonts: Inter and Noto Sans KR -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Noto+Sans+KR:wght@400;500;700;800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Noto+Sans+KR:wght@400;500;700&display=swap"
         rel="stylesheet">
-    <!-- Pretendard Font via CDN -->
-    <link rel="stylesheet" as="style" crossorigin
-        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
-    <link rel="stylesheet" href="style.css?v=6.0">
+    <link rel="stylesheet" href="style.css?v=1.3">
 </head>
 
 <body>
-
-    <!-- ▌ FLOATING NAVBAR (Hides during print) -->
     <nav class="navbar">
         <div class="nav-content">
-            <div class="logo">
-                <span class="brand-dot"></span>송형륜 | 경력기술서
-            </div>
-            <div class="nav-links">
-                <a href="#page-1" class="active">소개</a>
-                <a href="#page-2">프로젝트 01</a>
-                <a href="#page-3">프로젝트 02</a>
-                <a href="#page-4">프로젝트 03</a>
-            </div>
+            <a href="#" class="logo">송형륜</a>
+            <ul class="nav-links">
+                <li><a href="#about">소개</a></li>
+                <li><a href="#projects">프로젝트</a></li>
+                <li><a href="#career">경력</a></li>
+                <li><a href="#skills">기술 스택</a></li>
+                <li><a href="#contact">연락처</a></li>
+            </ul>
         </div>
     </nav>
 
-    <main class="resume-container">
-
-        <!-- ────────────────── PAGE 01 ────────────────── -->
-        <section id="page-1" class="page-block page-1">
-            <!-- Header Info -->
-            <div class="header-section">
-                <div class="header-left">
-                    <h1 class="resume-title">송형륜</h1>
-                    <p class="resume-subtitle">쇼핑몰 통합관리 솔루션 운영 · 사용자 교육 · QA</p>
-
-                    <div class="contact-info">
-                        <div class="info-item">
-                            <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-                                <line x1="16" y1="2" x2="16" y2="6"></line>
-                                <line x1="8" y1="2" x2="8" y2="6"></line>
-                                <line x1="3" y1="10" x2="21" y2="10"></line>
-                            </svg>
-                            <span>1990.11.23 (남)</span>
-                        </div>
-                        <div class="info-divider">|</div>
-                        <div class="info-item">
-                            <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
+    <main>
+        <section id="hero" class="hero section">
+            <div class="container hero-grid fade-in">
+                <div class="hero-left">
+                    <div class="status-badge">
+                        <span class="status-dot"></span>구직 중
+                    </div>
+                    <h1 class="hero-title">송형륜</h1>
+                    <p class="hero-role">
+                        <span class="gradient-text">쇼핑몰 통합관리 솔루션 QA 및 운영</span>
+                    </p>
+                    <p class="hero-subtitle">
+                        기능 오류만 찾는 것을 넘어 <strong>'사용자가 실제로 서비스를 어떻게 사용하는가'</strong>를 고민합니다.<br>
+                        쇼핑몰 통합관리 솔루션인 <strong>이셀러스</strong> 및 <strong>이셀러스Pro</strong>의
+                        전체 QA 리딩과 서비스 운영 지원 업무를 담당했습니다.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#career" class="btn btn-primary">경력 보기 &rarr;</a>
+                        <a href="https://github.com/gudfbs" target="_blank" class="btn btn-secondary">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"
+                                style="margin-right: 8px;">
                                 <path
-                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
-                                </path>
+                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
                             </svg>
-                            <span>010-3386-5227</span>
-                        </div>
-                        <div class="info-divider">|</div>
-                        <div class="info-item">
-                            <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
-                                </path>
-                                <polyline points="22,6 12,13 2,6"></polyline>
-                            </svg>
-                            <span>gudfbs11@naver.com</span>
-                        </div>
-                        <div class="info-divider">|</div>
-                        <div class="info-item">
-                            <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                                <circle cx="12" cy="10" r="3"></circle>
-                            </svg>
-                            <span>경기도 광명시</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="header-right">
-                    <div class="profile-photo">
-                        <img src="photo.jpg" alt="송형륜 프로필 사진">
-                    </div>
-                </div>
-            </div>
-
-            <!-- Banner / Intro quote box -->
-            <div class="intro-quote-card">
-                <div class="quote-header">
-                    <span class="quote-symbol">“</span>
-                    <h2>쇼핑몰 통합관리 솔루션 ‘이셀러스’를 5년간 운영했습니다.</h2>
-                    <span class="quote-symbol">”</span>
-                </div>
-                <div class="quote-dashed-line"></div>
-                <div class="quote-3grid">
-                    <div class="quote-col">
-                        <div class="icon-circle-blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <circle cx="12" cy="12" r="10"></circle>
-                                <polyline points="12 6 12 12 16 14"></polyline>
-                            </svg>
-                        </div>
-                        <h3>서비스 운영</h3>
-                        <p>쇼핑몰 통합관리 솔루션 운영<br>약 15개 오픈마켓 연동 이셀러스 운영 및 이슈 대응</p>
-                    </div>
-                    <div class="quote-col">
-                        <div class="icon-circle-blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                                <circle cx="9" cy="7" r="4"></circle>
-                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                            </svg>
-                        </div>
-                        <h3>사용자 교육</h3>
-                        <p>온·오프라인 사용자 교육<br>서비스 기능 및 실제 이용 방법 교육</p>
-                    </div>
-                    <div class="quote-col">
-                        <div class="icon-circle-blue">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                                <polyline points="9 12 11 14 15 10"></polyline>
-                            </svg>
-                        </div>
-                        <h3>QA</h3>
-                        <p>서비스 QA 및 신규 솔루션 QA<br>운영 경험 기반 검증 및 기획·개발 협업</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- CAREER TIMELINE -->
-            <div class="section-group">
-                <h2 class="group-title text-blue">주요 경력</h2>
-                <div class="timeline-wrapper">
-                    <!-- Item 1: 가비아씨엔에스 -->
-                    <div class="timeline-item">
-                        <div class="timeline-marker">
-                            <div class="timeline-dot"></div>
-                            <div class="timeline-line"></div>
-                        </div>
-                        <div class="timeline-card">
-                            <div class="timeline-card-left">
-                                <div class="date-badge">2021.03 – 2026.05</div>
-                                <div class="company-row">
-                                    <h3 class="company-name">가비아씨엔에스</h3>
-                                    <span class="role-badge">기획운영팀</span>
-                                </div>
-                                <div class="company-tags">쇼핑몰 통합관리 솔루션 운영 · 사용자 교육 · QA</div>
-                                <div class="company-desc">
-                                </div>
-                            </div>
-                            <div class="timeline-card-right">
-                                <div class="check-item">
-                                    <div class="check-icon">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                                            <polyline points="20 6 9 17 4 12"></polyline>
-                                        </svg>
-                                    </div>
-                                    <div class="check-text">
-                                        <strong>쇼핑몰 통합관리 솔루션 이셀러스 운영</strong>
-                                    </div>
-                                </div>
-                                <div class="check-item">
-                                    <div class="check-icon">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                                            <polyline points="20 6 9 17 4 12"></polyline>
-                                        </svg>
-                                    </div>
-                                    <div class="check-text">
-                                        <strong>사용자 대상 온·오프라인 서비스 교육</strong>
-                                    </div>
-                                </div>
-                                <div class="check-item">
-                                    <div class="check-icon">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                                            <polyline points="20 6 9 17 4 12"></polyline>
-                                        </svg>
-                                    </div>
-                                    <div class="check-text">
-                                        <strong>운영 가이드·FAQ 등 고객 지원 문서 작성 및 관리</strong>
-                                    </div>
-                                </div>
-                                <div class="check-item">
-                                    <div class="check-icon">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                                            <polyline points="20 6 9 17 4 12"></polyline>
-                                        </svg>
-                                    </div>
-                                    <div class="check-text">
-                                        <strong>서비스 패치 및 신규 솔루션 QA</strong>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Item 2: 모두투어네트워크 -->
-                    <div class="timeline-item">
-                        <div class="timeline-marker">
-                            <div class="timeline-dot"></div>
-                            <div class="timeline-line last"></div>
-                        </div>
-                        <div class="timeline-card">
-                            <div class="timeline-card-left">
-                                <div class="date-badge">2014.12 – 2021.03</div>
-                                <div class="company-row">
-                                    <h3 class="company-name">모두투어네트워크</h3>
-                                    <span class="role-badge">공항서비스부</span>
-                                </div>
-                                <div class="company-tags">공항 서비스 운영 · VOC 분석 · 품질 관리</div>
-                                <div class="company-desc">
-                                </div>
-                            </div>
-                            <div class="timeline-card-right">
-                                <div class="check-item">
-                                    <div class="check-icon">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                                            <polyline points="20 6 9 17 4 12"></polyline>
-                                        </svg>
-                                    </div>
-                                    <div class="check-text">
-                                        <strong>공항 고객 서비스 운영 및 현장 이슈 대응</strong>
-                                    </div>
-                                </div>
-                                <div class="check-item">
-                                    <div class="check-icon">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                                            <polyline points="20 6 9 17 4 12"></polyline>
-                                        </svg>
-                                    </div>
-                                    <div class="check-text">
-                                        <strong>VOC 데이터 분석 및 프로세스 개선</strong>
-                                    </div>
-                                </div>
-                                <div class="check-item">
-                                    <div class="check-icon">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                                            <polyline points="20 6 9 17 4 12"></polyline>
-                                        </svg>
-                                    </div>
-                                    <div class="check-text">
-                                        <strong>서비스 운영 매뉴얼 및 교육자료 작성</strong>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- TOOLS & SKILLS -->
-            <div class="section-group">
-                <h2 class="group-title text-blue">주요 도구 및 기술</h2>
-                <div class="tools-6grid">
-                    <!-- Tool 1: Excel -->
-                    <div class="tool-box-card">
-                        <div class="tool-box-icon excel-bg">
-                            <svg viewBox="0 0 24 24" fill="white">
-                                <path
-                                    d="M21.3 2.7H7.7L6.3 4v16l1.4 1.3h13.6c.7 0 1.3-.6 1.3-1.3V4c0-.7-.6-1.3-1.3-1.3zM10.8 17.2L9.2 13.5l-1.6 3.7H6l2.4-5.1L6.1 7h1.6l1.5 3.5L10.7 7h1.6l-2.4 5 2.5 5.2h-1.6z" />
-                            </svg>
-                        </div>
-                        <h3 class="tool-box-name">Excel</h3>
-                        <p class="tool-box-sub">데이터 분석 및 관리</p>
-                    </div>
-
-                    <!-- Tool 2: JIRA -->
-                    <div class="tool-box-card">
-                        <div class="tool-box-icon jira-bg">
-                            <svg viewBox="0 0 24 24" fill="white">
-                                <path d="M11.571 11.429h-8.571C3 16.157 6.843 20 11.571 20v-8.571z" />
-                                <path d="M12.429 2c-4.728 0-8.571 3.843-8.571 8.571h8.571V2z" />
-                                <path d="M12.429 11.429V20c4.728 0 8.571-3.843 8.571-8.571h-8.571z" />
-                            </svg>
-                        </div>
-                        <h3 class="tool-box-name">JIRA</h3>
-                        <p class="tool-box-sub">이슈 관리 및 협업</p>
-                    </div>
-
-                    <!-- Tool 3: Confluence -->
-                    <div class="tool-box-card">
-                        <div class="tool-box-icon confluence-bg">
-                            <svg viewBox="0 0 24 24" fill="white">
-                                <path
-                                    d="M6.01 19.531c-.131.144-.316.222-.509.222H.794a.794.794 0 0 1-.587-1.329l6.398-7.142c.131-.144.316-.222.509-.222h4.707a.794.794 0 0 1 .587 1.329l-6.398 7.142zm11.98-15.062c.131-.144.316-.222.509-.222h4.707a.794.794 0 0 1 .587 1.329l-6.398 7.142a.794.794 0 0 1-.509.222h-4.707a.794.794 0 0 1-.587-1.329l6.398-7.142z" />
-                            </svg>
-                        </div>
-                        <h3 class="tool-box-name">Confluence</h3>
-                        <p class="tool-box-sub">문서화 및 지식 관리</p>
-                    </div>
-
-                    <!-- Tool 4: Teams -->
-                    <div class="tool-box-card">
-                        <div class="tool-box-icon teams-bg">
-                            <svg viewBox="0 0 24 24" fill="white">
-                                <path
-                                    d="M19.5 7.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm1.5 1.5h-3a1 1 0 0 0-1 1v4.5a2.5 2.5 0 0 0 5 0V10a1 1 0 0 0-1-1zM13 6a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm2.5 2h-5A1.5 1.5 0 0 0 9 9.5V17a3 3 0 0 0 6 0V9.5A1.5 1.5 0 0 0 13.5 8zM7 8.5H3A1.5 1.5 0 0 0 1.5 10v4.5A2.5 2.5 0 0 0 4 17h.5V10A1.5 1.5 0 0 1 6 8.5z" />
-                            </svg>
-                        </div>
-                        <h3 class="tool-box-name">Teams</h3>
-                        <p class="tool-box-sub">파일 관리 및 협업</p>
-                    </div>
-
-                    <!-- Tool 5: Channel Talk -->
-                    <div class="tool-box-card">
-                        <div class="tool-box-icon channeltalk-bg">
-                            <svg viewBox="0 0 24 24" fill="white">
-                                <path
-                                    d="M12 3C6.48 3 2 6.8 2 11.5c0 2.76 1.54 5.22 3.96 6.85L5 21l3.74-1.25C9.8 20.15 10.88 20.3 12 20.3c5.52 0 10-3.8 10-8.5S17.52 3 12 3zm-2.5 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
-                            </svg>
-                        </div>
-                        <h3 class="tool-box-name">Channel Talk</h3>
-                        <p class="tool-box-sub">상담 및 자동화</p>
-                    </div>
-
-                    <!-- Tool 6: ISTQB FL -->
-                    <div class="tool-box-card">
-                        <div class="tool-box-icon istqb-bg">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round">
-                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-                                <polyline points="9 12 11 14 15 10" />
-                            </svg>
-                        </div>
-                        <h3 class="tool-box-name">ISTQB FL</h3>
-                        <p class="tool-box-sub">SW 품질 관리</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ────────────────── PAGE 02 ────────────────── -->
-        <section id="page-2" class="page-block page-2">
-            <!-- Project Header -->
-            <div class="proj-badge-header">
-                <div class="proj-num-badge">01</div>
-                <div class="proj-header-text">
-                    <h2>쇼핑몰 통합관리 솔루션 운영</h2>
-                    <p class="proj-sub-info">가비아씨엔에스 <span>|</span> 이셀러스 <span>|</span> 2021.03 ~ 2026.05</p>
-                </div>
-            </div>
-
-            <div class="proj-card-box">
-                <!-- 01 개요 -->
-                <div class="proj-sec-block">
-                    <h3 class="proj-sec-title">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                            <polyline points="14 2 14 8 20 8"></polyline>
-                            <line x1="16" y1="13" x2="8" y2="13"></line>
-                            <line x1="16" y1="17" x2="8" y2="17"></line>
-                            <polyline points="10 9 9 9 8 9"></polyline>
-                        </svg>
-                        <span>01 개요</span>
-                    </h3>
-                    <p class="proj-sec-text">쇼핑몰 통합관리 솔루션 이셀러스 서비스 운영을 담당하며 고객 이슈 대응, 사용자 교육, 운영 문서 관리 등 서비스 운영 전반을
-                        수행했습니다.</p>
-                </div>
-
-                <!-- 02 담당 업무 (불릿 리스트 방식) -->
-                <div class="proj-sec-block">
-                    <h3 class="proj-sec-title">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                            <circle cx="12" cy="7" r="4"></circle>
-                        </svg>
-                        <span>02 담당 업무</span>
-                    </h3>
-                    <ul class="bullet-list">
-                        <li>서비스 운영 및 고객 이슈 대응</li>
-                        <li>오픈마켓 연동 관리</li>
-                        <li>사용자 교육 운영</li>
-                        <li>운영 문서 작성 및 관리</li>
-                    </ul>
-                </div>
-
-                <!-- 03 주요 내용 -->
-                <div class="proj-sec-block">
-                    <h3 class="proj-sec-title">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <circle cx="12" cy="12" r="3"></circle>
-                            <path
-                                d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z">
-                            </path>
-                        </svg>
-                        <span>03 주요 내용</span>
-                    </h3>
-
-                    <div class="main-content-3grid">
-                        <!-- Card 1: 서비스 운영 -->
-                        <div class="content-card-styled">
-                            <div class="card-top-icon-circle blue">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                    style="width:26px; height:26px;">
-                                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
-                                    <line x1="8" y1="21" x2="16" y2="21"></line>
-                                    <line x1="12" y1="17" x2="12" y2="21"></line>
-                                </svg>
-                            </div>
-                            <h4 class="card-styled-title blue">서비스 운영</h4>
-                            <div class="check-bullet-list">
-                                <div class="check-bullet-item">
-                                    <div class="bullet-check-icon blue">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
-                                            <polyline points="20 6 9 17 4 12"></polyline>
-                                        </svg>
-                                    </div>
-                                    <span>고객 문의 및 기술 이슈 대응</span>
-                                </div>
-                                <div class="check-bullet-item">
-                                    <div class="bullet-check-icon blue">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
-                                            <polyline points="20 6 9 17 4 12"></polyline>
-                                        </svg>
-                                    </div>
-                                    <span>정책·API 변경 모니터링</span>
-                                </div>
-                                <div class="check-bullet-item">
-                                    <div class="bullet-check-icon blue">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
-                                            <polyline points="20 6 9 17 4 12"></polyline>
-                                        </svg>
-                                    </div>
-                                    <span>서비스 영향도 확인 및 협업</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Card 2: 사용자 교육 -->
-                        <div class="content-card-styled">
-                            <div class="card-top-icon-circle blue">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                    style="width:26px; height:26px;">
-                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                                    <circle cx="9" cy="7" r="4"></circle>
-                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                                </svg>
-                            </div>
-                            <h4 class="card-styled-title blue">사용자 교육</h4>
-                            <div class="check-bullet-list">
-                                <div class="check-bullet-item">
-                                    <div class="bullet-check-icon blue">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
-                                            <polyline points="20 6 9 17 4 12"></polyline>
-                                        </svg>
-                                    </div>
-                                    <span>신규 사용자 온보딩</span>
-                                </div>
-                                <div class="check-bullet-item">
-                                    <div class="bullet-check-icon blue">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
-                                            <polyline points="20 6 9 17 4 12"></polyline>
-                                        </svg>
-                                    </div>
-                                    <span>정기 온라인 교육 (월 1회)</span>
-                                </div>
-                                <div class="check-bullet-item">
-                                    <div class="bullet-check-icon blue">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
-                                            <polyline points="20 6 9 17 4 12"></polyline>
-                                        </svg>
-                                    </div>
-                                    <span>오프라인 교육 (분기 1회)</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Card 3: 운영 체계화 -->
-                        <div class="content-card-styled">
-                            <div class="card-top-icon-circle blue">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                    style="width:26px; height:26px;">
-                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                                    <polyline points="14 2 14 8 20 8"></polyline>
-                                    <line x1="16" y1="13" x2="8" y2="13"></line>
-                                    <line x1="16" y1="17" x2="8" y2="17"></line>
-                                    <polyline points="10 9 9 9 8 9"></polyline>
-                                </svg>
-                            </div>
-                            <h4 class="card-styled-title blue">운영 체계화</h4>
-                            <div class="check-bullet-list">
-                                <div class="check-bullet-item">
-                                    <div class="bullet-check-icon blue">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
-                                            <polyline points="20 6 9 17 4 12"></polyline>
-                                        </svg>
-                                    </div>
-                                    <span>운영 문서 작성 및 최신화</span>
-                                </div>
-                                <div class="check-bullet-item">
-                                    <div class="bullet-check-icon blue">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
-                                            <polyline points="20 6 9 17 4 12"></polyline>
-                                        </svg>
-                                    </div>
-                                    <span>FAQ·운영문서 관리</span>
-                                </div>
-                                <div class="check-bullet-item">
-                                    <div class="bullet-check-icon blue">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
-                                            <polyline points="20 6 9 17 4 12"></polyline>
-                                        </svg>
-                                    </div>
-                                    <span>챗봇·AI 연계 자동화</span>
-                                </div>
-                            </div>
-                        </div>
+                            GitHub
+                        </a>
+                        <a href="#contact" class="btn btn-text">연락하기</a>
                     </div>
                 </div>
 
-                <!-- 04 성과 -->
-                <div class="proj-sec-block">
-                    <h3 class="proj-sec-title">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
-                            <polyline points="17 6 23 6 23 12"></polyline>
-                        </svg>
-                        <span>04 성과</span>
-                    </h3>
-
-                    <div class="kpi-card-horizontal-grid">
-                        <!-- KPI 1 -->
-                        <div class="kpi-card-horizontal">
-                            <div class="kpi-card-top-row">
-                                <div class="kpi-icon-circle-large">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        style="width:24px; height:24px;">
-                                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-                                        <polyline points="9 22 9 12 15 12 15 22"></polyline>
-                                    </svg>
-                                </div>
-                                <div class="kpi-text-block">
-                                    <span class="kpi-metric-big">약 15개<BR>오픈마켓 연동</span>
-                                </div>
+                <div class="hero-right">
+                    <div class="profile-card slide-up">
+                        <div class="profile-avatar">송</div>
+                        <div class="profile-stats">
+                            <div class="stat-item">
+                                <span class="stat-value">11+</span>
+                                <span class="stat-label">Years</span>
                             </div>
-                            <p class="kpi-desc-text">쿠팡, 네이버, G마켓, 11번가 등<br>오픈마켓과 연동된 서비스 운영 경험</p>
+                            <div class="stat-item">
+                                <span class="stat-value">2개</span>
+                                <span class="stat-label">담당 솔루션</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value">24%</span>
+                                <span class="stat-label">QA 처리율</span>
+                            </div>
                         </div>
-
-                        <!-- KPI 2 -->
-                        <div class="kpi-card-horizontal">
-                            <div class="kpi-card-top-row">
-                                <div class="kpi-icon-circle-large">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        style="width:24px; height:24px;">
-                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                                        <polyline points="14 2 14 8 20 8"></polyline>
-                                        <line x1="16" y1="13" x2="8" y2="13"></line>
-                                        <line x1="16" y1="17" x2="8" y2="17"></line>
-                                        <polyline points="10 9 9 9 8 9"></polyline>
-                                    </svg>
-                                </div>
-                                <div class="kpi-text-block">
-                                    <span class="kpi-metric-big">1,500건+<BR>운영 문서 관리</span>
-                                </div>
-                            </div>
-                            <p class="kpi-desc-text">사용 가이드, FAQ, 오류문서 등<br>누적 1,500건+ 운영 문서 관리</p>
+                        <div class="profile-skills">
+                            <span class="tag tag-highlight">ISTQB FL</span>
+                            <span class="tag">JIRA</span>
+                            <span class="tag">Postman</span>
+                            <span class="tag">Excel</span>
+                            <span class="tag">Git</span>
+                            <span class="tag">VSCode</span>
                         </div>
-
-                        <!-- KPI 3 -->
-                        <div class="kpi-card-horizontal">
-                            <div class="kpi-card-top-row">
-                                <div class="kpi-icon-circle-large">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        style="width:24px; height:24px;">
-                                        <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
-                                        <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
-                                    </svg>
-                                </div>
-                                <div class="kpi-text-block">
-                                    <span class="kpi-metric-big">온·오프라인<BR>사용자 교육</span>
-                                </div>
-                            </div>
-                            <p class="kpi-desc-text">정기 온라인 교육(월 1회)<br>오프라인 교육(분기 1회) 진행</p>
+                        <div class="profile-status">
+                            <span class="status-dot"></span>현재 구직 중
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- ────────────────── PAGE 03 ────────────────── -->
-        <section id="page-3" class="page-block page-3">
-            <!-- Project Header -->
-            <div class="proj-badge-header">
-                <div class="proj-num-badge">02</div>
-                <div class="proj-header-text">
-                    <h2>서비스 품질 관리 및 신규 솔루션 QA</h2>
-                    <p class="proj-sub-info">가비아씨엔에스 <span>|</span> 이셀러스 · 이셀러스Pro <span>|</span> 2023.08 ~ 2026.05</p>
+        <section id="about" class="about section">
+            <div class="container">
+                <h2 class="section-title slide-up">사용자 관점에서<br>서비스 품질을 만들어갑니다.</h2>
+                <p></p>
+                <p></p>
+                <p></p>
+                <div class="about-content slide-up">
+                    <p style="margin-bottom: 1.5rem;">
+                        <strong>문제의 원인을 구조적으로 파악합니다.</strong><br>
+                        단순히 현상을 처리하는 데 그치지 않고, '왜 발생했는지'를 분석하여 운영 프로세스 자체를 개선합니다.<br>이러한 시각으로 이전 직장에서 VOC를 <strong>30%가량
+                            감소</strong>시킨 바 있으며,<br>서비스의 근본적인 완성도를 높이는 데 기여합니다.
+                    </p>
+                    <p>
+                        <strong>기능이 아닌 '서비스 흐름'을 검증합니다.</strong><br>
+                        테스트는 결과만 확인하는 작업이 아닙니다. 실제 사용자가 마주할 상황을 예측하고,<br>기획·개발 조직과 협업하여 기능의 정책과 의도를 파악함으로써
+                        <br>예기치 못한 문제를 사전에 예방하고 안정적인 사용자 경험을 제공합니다.
+                    </p>
                 </div>
             </div>
+        </section>
 
-            <div class="proj-card-box">
-                <!-- 01 개요 -->
-                <div class="proj-sec-block">
-                    <h3 class="proj-sec-title">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                            <polyline points="14 2 14 8 20 8"></polyline>
-                            <line x1="16" y1="13" x2="8" y2="13"></line>
-                            <line x1="16" y1="17" x2="8" y2="17"></line>
-                            <polyline points="10 9 9 9 8 9"></polyline>
-                        </svg>
-                        <span>01 개요</span>
-                    </h3>
-                    <p class="proj-sec-text">이셀러스 서비스 패치와 신규 웹 솔루션 이셀러스Pro의 QA를 담당하며, 실제 사용자 업무 흐름을 기반으로 시나리오를 구성하고
-                        기획·개발과 협업해 서비스 품질을 관리했습니다.</p>
-                </div>
+        <section id="projects" class="projects section">
+            <div class="container">
+                <h2 class="section-title slide-up">주요 프로젝트</h2>
+                <div class="projects-grid slide-up">
 
-                <!-- 02 담당 업무 (불릿 리스트 방식) -->
-                <div class="proj-sec-block">
-                    <h3 class="proj-sec-title">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                            <circle cx="12" cy="7" r="4"></circle>
-                        </svg>
-                        <span>02 담당 업무</span>
-                    </h3>
-                    <ul class="bullet-list">
-                        <li>서비스 패치 및 기능 QA</li>
-                        <li>사용자 시나리오 작성 및 검증</li>
-                        <li>신규 솔루션 QA 리딩</li>
-                        <li>기획·개발 협업 및 이슈 관리</li>
-                    </ul>
-                </div>
-
-                <!-- 03 주요 내용 -->
-                <div class="proj-sec-block">
-                    <h3 class="proj-sec-title">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <circle cx="12" cy="12" r="3"></circle>
-                            <path
-                                d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z">
-                            </path>
-                        </svg>
-                        <span>03 주요 내용</span>
-                    </h3>
-
-                    <!-- 2 QA Areas Top Grid -->
-                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px;">
-                        <div class="content-card-styled" style="align-items: flex-start;">
-                            <h4 class="card-styled-title blue" style="text-align: left; margin-bottom: 10px;">① 이셀러스 솔루션
-                                QA</h4>
-                            <div class="check-bullet-list">
-                                <div class="check-bullet-item">
-                                    <div class="bullet-check-icon blue">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
-                                            <polyline points="20 6 9 17 4 12"></polyline>
-                                        </svg>
-                                    </div>
-                                    <span>서비스 패치 및 기능 QA</span>
-                                </div>
-                                <div class="check-bullet-item">
-                                    <div class="bullet-check-icon blue">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
-                                            <polyline points="20 6 9 17 4 12"></polyline>
-                                        </svg>
-                                    </div>
-                                    <span>오픈마켓 연동 기능 검증</span>
-                                </div>
-                                <div class="check-bullet-item">
-                                    <div class="bullet-check-icon blue">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
-                                            <polyline points="20 6 9 17 4 12"></polyline>
-                                        </svg>
-                                    </div>
-                                    <span>영향 범위 리그레션 테스트</span>
-                                </div>
-                                <div class="check-bullet-item">
-                                    <div class="bullet-check-icon blue">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
-                                            <polyline points="20 6 9 17 4 12"></polyline>
-                                        </svg>
-                                    </div>
-                                    <span>이슈 확인 및 수정사항 재검증</span>
-                                </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>신규 웹 솔루션 QA 리딩</h3>
+                            <div class="project-tech-tags">
+                                <span class="project-tech-tag">JIRA</span>
+                                <span class="project-tech-tag">Confluence</span>
+                                <span class="project-tech-tag">Excel</span>
+                                <span class="project-tech-tag">Slack</span>
+                                <span class="project-tech-tag">Teams</span>
+                                <span class="project-tech-tag">Postman</span>
                             </div>
                         </div>
-
-                        <div class="content-card-styled" style="align-items: flex-start;">
-                            <h4 class="card-styled-title blue" style="text-align: left; margin-bottom: 10px;">② 신규 솔루션
-                                QA</h4>
-                            <div class="check-bullet-list">
-                                <div class="check-bullet-item">
-                                    <div class="bullet-check-icon blue">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
-                                            <polyline points="20 6 9 17 4 12"></polyline>
-                                        </svg>
-                                    </div>
-                                    <span>상품·배송관리 주요 기능 QA 리딩</span>
-                                </div>
-                                <div class="check-bullet-item">
-                                    <div class="bullet-check-icon blue">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
-                                            <polyline points="20 6 9 17 4 12"></polyline>
-                                        </svg>
-                                    </div>
-                                    <span>QA 범위·우선순위·일정 관리</span>
-                                </div>
-                                <div class="check-bullet-item">
-                                    <div class="bullet-check-icon blue">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
-                                            <polyline points="20 6 9 17 4 12"></polyline>
-                                        </svg>
-                                    </div>
-                                    <span>기획·개발과 이슈 및 일정 조율</span>
-                                </div>
-                                <div class="check-bullet-item">
-                                    <div class="bullet-check-icon blue">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
-                                            <polyline points="20 6 9 17 4 12"></polyline>
-                                        </svg>
-                                    </div>
-                                    <span>검증 완료 후 신규 서비스 오픈 지원</span>
-                                </div>
+                        <div class="project-purpose-box">
+                            <p class="project-purpose">
+                                <strong>🎯 프로젝트 목적:</strong> 신규 웹 기반 통합관리 솔루션 전체 기능 QA
+                            </p>
+                        </div>
+                        <div class="project-details">
+                            <div class="project-detail-section">
+                                <h4>🛠️ 프로젝트 수행 내용</h4>
+                                <ul class="project-tasks-list">
+                                    <li>사용자 시나리오 기반 QA 항목 설계 및 전체 기능 검증 수행</li>
+                                    <li>상품·주문·배송 흐름 기준 기능 간 연계 및 데이터 검증 진행</li>
+                                    <li>실제 사용자 패턴 기반 예외 상황 및 이슈 시나리오화</li>
+                                    <li>Postman을 활용한 API 데이터 검증 및 원인 분석</li>
+                                    <li>기획·개발 조직과 협업하며 QA 일정 및 우선순위 조율</li>
+                                </ul>
+                            </div>
+                            <div class="project-detail-section project-highlight-section">
+                                <h4>📈 주요 결과 및 성과</h4>
+                                <ul class="project-result-list">
+                                    <li>전체 QA 이후 주요 기능 <strong>오류율 약 54% 감소</strong> (22% → 10%)</li>
+                                    <li><strong>신규 웹 솔루션 이셀러스Pro 정상 런칭</strong> (2025.07.30)</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Common QA Approach Section -->
-                    <div
-                        style="background: var(--bg-daou-tint); border: 1px solid var(--border-daou); border-radius: 10px; padding: 12px 14px;">
-                        <div
-                            style="font-size: 0.84rem; font-weight: 800; color: var(--daou-blue); margin-bottom: 8px; display: flex; align-items: center; gap: 6px;">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                style="width: 16px; height: 16px;">
-                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                                <polyline points="9 12 11 14 15 10"></polyline>
-                            </svg>
-                            <span>공통 QA 방식</span>
-                        </div>
-                        <div style="display: grid; grid-template-columns: 1fr 1.2fr; gap: 10px;">
-                            <div
-                                style="background: #ffffff; border: 1px solid var(--border-daou-strong); border-radius: 8px; padding: 10px 12px;">
-                                <strong
-                                    style="font-size: 0.84rem; font-weight: 800; color: var(--daou-blue); display: block; margin-bottom: 2px;">①
-                                    사용자 시나리오 기반</strong>
-                                <p style="font-size: 0.75rem; color: var(--text-muted); margin: 0; line-height: 1.4;">
-                                    실제 사용 흐름을 반영해 테스트 시나리오를 설계하고 검증</p>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>통합관리 솔루션 유지보수 및 오픈마켓 연동 QA</h3>
+                            <div class="project-tech-tags">
+                                <span class="project-tech-tag">JIRA</span>
+                                <span class="project-tech-tag">Confluence</span>
+                                <span class="project-tech-tag">Excel</span>
+                                <span class="project-tech-tag">Postman</span>
                             </div>
-                            <div
-                                style="background: #ffffff; border: 1px solid var(--border-daou-strong); border-radius: 8px; padding: 10px 12px;">
-                                <strong
-                                    style="font-size: 0.84rem; font-weight: 800; color: var(--daou-blue); display: block; margin-bottom: 2px;">②
-                                    기획·개발과 협업</strong>
-                                <p style="font-size: 0.75rem; color: var(--text-muted); margin: 0; line-height: 1.4;">
-                                    이슈 공유 및 수정 방향 협의 → 수정 → 재검증 → 서비스 반영</p>
+                        </div>
+                        <div class="project-purpose-box">
+                            <p class="project-purpose">
+                                <strong>🎯 프로젝트 목적:</strong> 기존 통합관리 솔루션의 안정적인 운영 유지와 신규 오픈마켓 연동
+                            </p>
+                        </div>
+                        <div class="project-details">
+                            <div class="project-detail-section">
+                                <h4>🛠️ 프로젝트 수행 내용</h4>
+                                <ul class="project-tasks-list">
+                                    <li>월 평균 <strong>약 23건 규모의 패치</strong> QA 및 회귀 테스트 수행</li>
+                                    <li>신규 오픈마켓 및 재연동 기능 검증 진행</li>
+                                    <li>상품·주문 흐름 기반 운영 시나리오 검증 수행</li>
+                                    <li>외부 API 요청/응답 데이터 및 데이터 매핑 구조 검증</li>
+                                    <li>오픈마켓 정책 변경 대응 과정에서 긴급 패치 QA 수행</li>
+                                </ul>
+                            </div>
+                            <div class="project-detail-section project-highlight-section">
+                                <h4>📈 주요 결과 및 성과</h4>
+                                <ul class="project-result-list">
+                                    <li>기존 대비 QA 처리 건수 <strong>약 24% 증가</strong> (395건 → 489건)</li>
+                                    <li><strong>10건 이상의 신규 오픈마켓 연동</strong> 및 재연동을 통한 솔루션 확장</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>웹 솔루션 안정화 QA</h3>
+                            <div class="project-tech-tags">
+                                <span class="project-tech-tag">JIRA</span>
+                                <span class="project-tech-tag">Excel</span>
+                                <span class="project-tech-tag">Teams</span>
+                            </div>
+                        </div>
+                        <div class="project-purpose-box">
+                            <p class="project-purpose">
+                                <strong>🎯 프로젝트 목적:</strong> 오픈 이후 불안정한 솔루션 기능 안정을 위한 전수 QA 진행
+                            </p>
+                        </div>
+                        <div class="project-details">
+                            <div class="project-detail-section">
+                                <h4>🛠️ 프로젝트 수행 내용</h4>
+                                <ul class="project-tasks-list">
+                                    <li>사용자 흐름 기반 전체 기능 및 운영 시나리오 테스트 수행</li>
+                                    <li>실제 운영 환경 기준 예외 상황 및 비정상 흐름 검증 진행</li>
+                                    <li>서비스 전체 기능 대상 기능 간 연계 및 데이터 흐름 검증 수행</li>
+                                    <li>사용자 숙련도에 따른 다양한 사용 패턴 기반 QA 진행</li>
+                                </ul>
+                            </div>
+                            <div class="project-detail-section project-highlight-section">
+                                <h4>📈 주요 결과 및 성과</h4>
+                                <ul class="project-result-list">
+                                    <li>오픈 이후 발생 가능한 주요 기능 오류 및 예외 상황 사전 발견</li>
+                                    <li>다차수 QA를 통해 주요 기능 <strong>오류 비율 약 30% 수준에서 10% 수준</strong>까지 개선</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
+            </div>
+        </section>
 
-                <!-- 04 성과 -->
-                <div class="proj-sec-block">
-                    <h3 class="proj-sec-title">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
-                            <polyline points="17 6 23 6 23 12"></polyline>
-                        </svg>
-                        <span>04 성과</span>
-                    </h3>
+        <section id="career" class="career section">
+            <div class="container">
+                <h2 class="section-title slide-up">경력 타임라인</h2>
+                <p class="section-subtitle slide-up">2014 – 2026 · 11년간의 업무 이력</p>
 
-                    <div class="kpi-card-horizontal-grid">
-                        <!-- KPI 1 -->
-                        <div class="kpi-card-horizontal">
-                            <div class="kpi-card-top-row">
-                                <div class="kpi-icon-circle-large">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        style="width:24px; height:24px;">
-                                        <polyline points="23 18 13.5 8.5 8.5 13.5 1 6"></polyline>
-                                        <polyline points="17 18 23 18 23 12"></polyline>
-                                    </svg>
-                                </div>
-                                <div class="kpi-text-block">
-                                    <span class="kpi-metric-big">22% → 10%<BR>QA 오류율 감소</span>
-                                </div>
-                            </div>
-                            <p class="kpi-desc-text">단계별 검증 및 재검증을 통한<br>오류율 감소</p>
+                <div class="timeline">
+                    <div class="timeline-item slide-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>가비아씨엔에스 | QA 및 서비스 운영 담당</h3>
+                            <p class="timeline-desc">2021.03 – 2026.05</p>
+                            <ul>
+                                <li>쇼핑몰 통합관리 솔루션 이셀러스 QA 담당</li>
+                                <li>신규 웹 솔루션 이셀러스Pro QA 담당</li>
+                                <li>전체 솔루션 서비스 운영 지원, 기술 문의 대응 및 사용자 교육 진행</li>
+                            </ul>
                         </div>
+                    </div>
 
-                        <!-- KPI 2 -->
-                        <div class="kpi-card-horizontal">
-                            <div class="kpi-card-top-row">
-                                <div class="kpi-icon-circle-large">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        style="width:24px; height:24px;">
-                                        <polygon
-                                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
-                                        </polygon>
-                                    </svg>
-                                </div>
-                                <div class="kpi-text-block">
-                                    <span class="kpi-metric-big">신규 솔루션 오픈</span>
-                                </div>
-                            </div>
-                            <p class="kpi-desc-text">이셀러스Pro 상품·배송관리<br>QA 리딩 및 서비스 오픈 지원</p>
-                        </div>
-
-                        <!-- KPI 3 -->
-                        <div class="kpi-card-horizontal">
-                            <div class="kpi-card-top-row">
-                                <div class="kpi-icon-circle-large">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        style="width:24px; height:24px;">
-                                        <polyline points="23 4 23 10 17 10"></polyline>
-                                        <polyline points="1 20 1 14 7 14"></polyline>
-                                        <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15">
-                                        </path>
-                                    </svg>
-                                </div>
-                                <div class="kpi-text-block">
-                                    <span class="kpi-metric-big">운영 → QA → 배포</span>
-                                </div>
-                            </div>
-                            <p class="kpi-desc-text">운영 경험과 QA 프로세스를 연계한<br>서비스 변경 대응 사이클 수행</p>
+                    <div class="timeline-item slide-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>모두투어네트워크 | 공항 서비스 업무 및 VOC 분석 (선임)</h3>
+                            <p class="timeline-desc">2014.12 – 2021.03</p>
+                            <ul>
+                                <li>VOC 데이터 분석 및 문제 원인 파악을 통한 운영 프로세스 개선</li>
+                                <li>운영 매뉴얼 및 교육자료 제작, 신규 인력 교육 수행</li>
+                                <li>VOC 분석 기반 개선안 적용으로 VOC 약 30% 감소 달성 (1813건 → 1268건)</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- ────────────────── PAGE 04 ────────────────── -->
-        <section id="page-4" class="page-block page-4">
-            <!-- Project Header -->
-            <div class="proj-badge-header">
-                <div class="proj-num-badge">03</div>
-                <div class="proj-header-text">
-                    <h2>VOC 데이터 기반 프로세스 개선</h2>
-                    <p class="proj-sub-info">모두투어네트워크 <span>|</span> 2014.12 ~ 2021.03</p>
+        <section id="skills" class="skills section">
+            <div class="container">
+                <h2 class="section-title slide-up">기술 스택</h2>
+                <div class="skills-grid slide-up">
+                    <div class="skill-category">
+                        <h3>협업 툴</h3>
+                        <div class="skill-tags">
+                            <span class="tag">JIRA</span>
+                            <span class="tag">Confluence</span>
+                            <span class="tag">Slack</span>
+                            <span class="tag">Teams</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>데이터 분석 및 검증</h3>
+                        <div class="skill-tags">
+                            <span class="tag">Postman</span>
+                            <span class="tag">Excel</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>자동화 활용/학습</h3>
+                        <div class="skill-tags">
+                            <span class="tag">Git</span>
+                            <span class="tag">VSCode</span>
+                            <span class="tag">Playwright 기반 웹 자동화 테스트 학습</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>자격증</h3>
+                        <div class="skill-tags">
+                            <span class="tag tag-highlight">ISTQB Certified Tester Foundation Level (FL)</span>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </section>
 
-            <div class="proj-card-box">
-                <!-- 01 개요 -->
-                <div class="proj-sec-block">
-                    <h3 class="proj-sec-title">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                            <polyline points="14 2 14 8 20 8"></polyline>
-                            <line x1="16" y1="13" x2="8" y2="13"></line>
-                            <line x1="16" y1="17" x2="8" y2="17"></line>
-                            <polyline points="10 9 9 9 8 9"></polyline>
-                        </svg>
-                        <span>01 개요</span>
-                    </h3>
-                    <p class="proj-sec-text">VOC 데이터를 분석해 반복되는 고객 이슈의 원인을 파악하고, 관련 부서와 협업하여 재발 방지 프로세스를 구축했습니다.</p>
-                </div>
-
-                <!-- 02 담당 업무 (불릿 리스트 방식) -->
-                <div class="proj-sec-block">
-                    <h3 class="proj-sec-title">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                            <circle cx="12" cy="7" r="4"></circle>
-                        </svg>
-                        <span>02 담당 업무</span>
-                    </h3>
-                    <ul class="bullet-list">
-                        <li>VOC 데이터 추출 및 유형별 분석</li>
-                        <li>반복 발생 문제 및 주요 발생 지점 파악</li>
-                        <li>분석 결과 기반 관련 부서 개선 협의</li>
-                        <li>개선 결과 모니터링 및 효과 분석</li>
-                    </ul>
-                </div>
-
-                <!-- 03 주요 내용 -->
-                <div class="proj-sec-block">
-                    <h3 class="proj-sec-title">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <circle cx="12" cy="12" r="3"></circle>
-                            <path
-                                d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z">
-                            </path>
-                        </svg>
-                        <span>03 주요 내용</span>
-                    </h3>
-
-                    <div class="process-horizontal-flow">
-                        <!-- Step 01 -->
-                        <div class="process-horiz-card">
-                            <div class="step-badge-circle">01</div>
-                            <div class="step-big-icon">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <circle cx="11" cy="11" r="8"></circle>
-                                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                                </svg>
-                            </div>
-                            <h4 class="step-horiz-title">반복 이슈 분석</h4>
-                            <p class="step-horiz-desc">VOC 데이터를 기반으로<br>반복되는 문제 유형 파악</p>
-                        </div>
-
-                        <!-- Arrow 1 -->
-                        <div class="process-horiz-arrow">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                                <line x1="5" y1="12" x2="19" y2="12"></line>
-                                <polyline points="12 5 19 12 12 19"></polyline>
-                            </svg>
-                        </div>
-
-                        <!-- Step 02 -->
-                        <div class="process-horiz-card">
-                            <div class="step-badge-circle">02</div>
-                            <div class="step-big-icon">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <line x1="18" y1="20" x2="18" y2="10"></line>
-                                    <line x1="12" y1="20" x2="12" y2="4"></line>
-                                    <line x1="6" y1="20" x2="6" y2="14"></line>
-                                </svg>
-                            </div>
-                            <h4 class="step-horiz-title">문제 원인 파악</h4>
-                            <p class="step-horiz-desc">발생 빈도와 주요 발생 지점을<br>분석해 반복 원인 확인</p>
-                        </div>
-
-                        <!-- Arrow 2 -->
-                        <div class="process-horiz-arrow">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                                <line x1="5" y1="12" x2="19" y2="12"></line>
-                                <polyline points="12 5 19 12 12 19"></polyline>
-                            </svg>
-                        </div>
-
-                        <!-- Step 03 -->
-                        <div class="process-horiz-card">
-                            <div class="step-badge-circle">03</div>
-                            <div class="step-big-icon">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                                    <circle cx="9" cy="7" r="4"></circle>
-                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                                </svg>
-                            </div>
-                            <h4 class="step-horiz-title">개선 과제 도출·협업</h4>
-                            <p class="step-horiz-desc">분석 결과를 바탕으로<br>관련 부서와 개선 방향 협의</p>
-                        </div>
-
-                        <!-- Arrow 3 -->
-                        <div class="process-horiz-arrow">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                                <line x1="5" y1="12" x2="19" y2="12"></line>
-                                <polyline points="12 5 19 12 12 19"></polyline>
-                            </svg>
-                        </div>
-
-                        <!-- Step 04 -->
-                        <div class="process-horiz-card">
-                            <div class="step-badge-circle">04</div>
-                            <div class="step-big-icon">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                                    <polyline points="9 12 11 14 15 10"></polyline>
-                                </svg>
-                            </div>
-                            <h4 class="step-horiz-title">운영 프로세스 개선</h4>
-                            <p class="step-horiz-desc">협의된 개선안을 운영에<br>반영하고 문제 재발 방지</p>
-                        </div>
-                    </div>
-
-                    <!-- Transition Banner -->
-                    <div class="phase-transition-banner" style="margin-top: 8px;">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polyline points="7 13 12 18 17 13"></polyline>
-                            <polyline points="7 6 12 11 17 6"></polyline>
-                        </svg>
-                        <span>반복되는 VOC를 데이터로 분석해 문제의 원인을 찾고 운영 개선으로 연결</span>
-                    </div>
-                </div>
-
-                <!-- 04 성과 -->
-                <div class="proj-sec-block">
-                    <h3 class="proj-sec-title">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
-                            <polyline points="17 6 23 6 23 12"></polyline>
-                        </svg>
-                        <span>04 성과</span>
-                    </h3>
-
-                    <div class="kpi-card-horizontal-grid">
-                        <!-- KPI 1 -->
-                        <div class="kpi-card-horizontal">
-                            <div class="kpi-card-top-row">
-                                <div class="kpi-icon-circle-large">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        style="width:24px; height:24px;">
-                                        <polyline points="23 18 13.5 8.5 8.5 13.5 1 6"></polyline>
-                                        <polyline points="17 18 23 18 23 12"></polyline>
-                                    </svg>
-                                </div>
-                                <div class="kpi-text-block">
-                                    <span class="kpi-metric-big">VOC 30% 감소</span>
-                                </div>
-                            </div>
-                            <p class="kpi-desc-text">1,813건 → 1,268건<br>반복 문의 및 문제 원인 분석</p>
-                        </div>
-
-                        <!-- KPI 2 -->
-                        <div class="kpi-card-horizontal">
-                            <div class="kpi-card-top-row">
-                                <div class="kpi-icon-circle-large">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        style="width:24px; height:24px;">
-                                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                                        <circle cx="9" cy="7" r="4"></circle>
-                                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                                    </svg>
-                                </div>
-                                <div class="kpi-text-block">
-                                    <span class="kpi-metric-big">주요 부서<BR>VOC 감소</span>
-                                </div>
-                            </div>
-                            <p class="kpi-desc-text">A부서 46% 감소 (184건 → 98건)<br>B부서 26% 감소 (107건 → 79건)</p>
-                        </div>
-
-                        <!-- KPI 3 -->
-                        <div class="kpi-card-horizontal">
-                            <div class="kpi-card-top-row">
-                                <div class="kpi-icon-circle-large">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        style="width:24px; height:24px;">
-                                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                                        <polyline points="9 12 11 14 15 10"></polyline>
-                                    </svg>
-                                </div>
-                                <div class="kpi-text-block">
-                                    <span class="kpi-metric-big">재발 방지<BR>프로세스 구축</span>
-                                </div>
-                            </div>
-                            <p class="kpi-desc-text">데이터 기반 부서 협업을 통한<br>반복 오류 방지</p>
-                        </div>
-                    </div>
+        <section id="contact" class="contact section">
+            <div class="container slide-up">
+                <h2 class="section-title">연락처</h2>
+                <div class="contact-card">
+                    <p class="contact-desc">흥미로운 기회나 제안은 언제든 환영합니다.</p>
+                    <a href="mailto:gudfbs11@naver.com" class="btn btn-primary contact-btn">이메일 보내기</a>
+                    <a href="https://github.com/gudfbs" target="_blank" class="btn btn-outline contact-btn">GitHub
+                        방문</a>
                 </div>
             </div>
         </section>
     </main>
 
-    <script src="script.js"></script>
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 송형륜. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js?v=1.1"></script>
 </body>
 
 </html>
